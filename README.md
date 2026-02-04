@@ -51,9 +51,9 @@ See [setup-developer-facebook-com/README.md](setup-developer-facebook-com/README
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `WEBHOOK_VERIFY_TOKEN` | Yes | Token for webhook verification |
-| `FACEBOOK_APP_SECRET` | No | For signature validation (recommended) |
-| `WHATSAPP_ACCESS_TOKEN` | No | For sending messages |
-| `WHATSAPP_PHONE_NUMBER_ID` | No | For sending messages |
+| `FACEBOOK_APP_SECRET` | Yes | For signature validation (recommended) |
+| `WHATSAPP_ACCESS_TOKEN` | Yes | For sending messages |
+| `WHATSAPP_PHONE_NUMBER_ID` | Yes | For sending messages |
 | `PORT` | No | Server port (default: 8080) |
 
 ## Where to Find Your Credentials
